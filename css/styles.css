@@ -16,7 +16,10 @@
 height: 600px;
 flex-shrink: 0;
 }
-button {
+.sec-two {
+    background-color: #FFFFFF
+}
+.button-b {
     border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 font-family: Roboto, sans-serif;
@@ -33,10 +36,10 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
 }
-.button:hover {
+.button-b:hover {
 background-color: #404BBF
 }
-.button:focus {
+.button-b:focus {
     background-color: #404BBF
 }
 body {
@@ -99,7 +102,7 @@ letter-spacing: 0.32px;
     letter-spacing: 0.02em;
     line-height: 1.5
 }
-.heder-address-link-link:hover{
+.heder-address-link-link:hover {
     color: #404bbf
 }
 .heder-address-link-link:focus {
@@ -142,6 +145,7 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.72px;
 text-transform: capitalize;
+background: var(--CLOUD, #F4F4FD);
 }
 .name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -168,7 +172,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 .footer-text {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--CLOUD, #f4f4f4);
 
 /* Body */
 font-family: Roboto;
