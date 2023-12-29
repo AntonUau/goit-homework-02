@@ -1,5 +1,5 @@
-h1 {
-    color: var(--WHITE, #FFF);
+.main {
+    color: var(--WHITE, #FFFFFF);
     text-align: center;
     
     /* Header 1 */
@@ -7,10 +7,10 @@ h1 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
-div {
+.sec-one {
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
 height: 600px;
@@ -24,6 +24,13 @@ display: inline-flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
 }
 body {
     background-color: #FFFFFF;
@@ -35,10 +42,13 @@ body {
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 width: 44px;
+}
+address {
+    font-style: normal;
 }
 .logo-part {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -73,8 +83,9 @@ letter-spacing: 0.32px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
     
 }
 .title {
@@ -111,7 +122,7 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; /* 111.111% */
+line-height: 1.11; 
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
@@ -150,4 +161,46 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 width: 264px;
+}
+footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+.logo-link {
+    color: #f4f4fd;
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.7;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+width: 71px;
+}
+.link-logo-footer {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+width: 44px;
+}
+.sec-three {
+    background-color: #F4F4FD
+}
+.img-mark {
+    display: inline-flex;
+padding-bottom: 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFFFFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
