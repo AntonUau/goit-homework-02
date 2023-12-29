@@ -19,6 +19,7 @@ flex-shrink: 0;
 button {
     border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
+font-family: Roboto, sans-serif;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 display: inline-flex;
 padding: 16px 32px;
@@ -32,13 +33,20 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
 }
+.button:hover {
+background-color: #404BBF
+}
+.button:focus {
+    background-color: #404BBF
+}
 body {
+    font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
     color: #434455
 }
 .link-logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -84,9 +92,18 @@ letter-spacing: 0.32px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+.heder-address-link-link {
+    color: #434455;
     letter-spacing: 0.02em;
-    
-    
+    line-height: 1.5
+}
+.heder-address-link-link:hover{
+    color: #404bbf
+}
+.heder-address-link-link:focus {
+    color: #404bbf
 }
 .title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -162,7 +179,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 width: 264px;
 }
-footer {
+.footer-foot {
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
     height: 312px;
@@ -181,17 +198,17 @@ width: 71px;
 }
 .link-logo-footer {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
+line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 width: 44px;
 }
 .sec-three {
-    background-color: #F4F4FD
+    background-color: #FFFFFF
 }
 .img-mark {
     display: inline-flex;
