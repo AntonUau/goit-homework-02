@@ -203,7 +203,6 @@ text-transform: uppercase;
     background-color: #FFFFFF
 }
 .img-mark {
-padding-bottom: 32px;
 justify-content: center;
 background: var(--WHITE, #FFFFFF);
 }
