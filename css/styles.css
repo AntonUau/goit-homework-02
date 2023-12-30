@@ -20,7 +20,6 @@ flex-shrink: 0;
 .button-butt {
 background: var(--IRIS, #4D5AE5);
 font-family: Roboto, sans-serif;
-align-items: flex-start;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -64,7 +63,6 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .nav-link { 
-align-items: flex-start;
     color: var(--NAVY-BLUE, #2E2F42);
 
 /* Body Medium */
@@ -207,7 +205,6 @@ text-transform: uppercase;
 .img-mark {
 padding-bottom: 32px;
 justify-content: center;
-align-items: center;
 background: var(--WHITE, #FFFFFF);
 }
 .ul-our-portfolio {
