@@ -4,7 +4,7 @@
     
     /* Header 1 */
     font-family: Roboto;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
@@ -20,9 +20,8 @@ flex-shrink: 0;
 .button-butt {
 background: var(--IRIS, #4D5AE5);
 font-family: Roboto, sans-serif;
-font-family: Roboto, sans-serif;
 font-weight: 500;
-font-size: 16px;
+font-size: 1rem;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
@@ -45,8 +44,8 @@ body {
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
+line-height: 1.17rem;
+letter-spacing: 0.03375rem;
 text-transform: uppercase;
 }
 address {
@@ -55,11 +54,11 @@ address {
 .logo-part {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
+line-height: 1.3125rem; /* 116.667% */
+letter-spacing: 0.03375rem;
 text-transform: uppercase;
 }
 .nav-link { 
@@ -67,11 +66,11 @@ text-transform: uppercase;
 
 /* Body Medium */
 font-family: Roboto;
-font-size: 16px;
+font-size: 1.25rem;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.025rem;
 }
 .nav-link:hover {
     color: #404bbf
@@ -84,10 +83,10 @@ letter-spacing: 0.32px;
 
     /* Body */
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.5rem;
     letter-spacing: 0.02em; 
 }
 .heder-address-link-link {
@@ -106,22 +105,22 @@ letter-spacing: 0.32px;
 
     /* Header 3 */
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px; 
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.025rem; 
 }
 .text {
     color: var(--SLATE, #434455);
 
 /* Body */
 font-family: Roboto;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.02rem;
 }
 
 .heder-title {
@@ -130,11 +129,11 @@ text-align: center;
 
 /* Header 2 */
 font-family: Roboto;
-font-size: 36px;
+font-size: 2.25rem;
 font-style: normal;
 font-weight: 700;
-line-height: 1.11; 
-letter-spacing: 0.72px;
+line-height: 1.11rem; 
+letter-spacing: 0.045rem;
 text-transform: capitalize;
 }
 .name {
@@ -143,11 +142,11 @@ text-align: center;
 
 /* Header 3 */
 font-family: Roboto;
-font-size: 20px;
+font-size: 1.25rem;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
+line-height: 1.5rem; /* 120% */
+letter-spacing: 0.025rem;
 }
 .heder-text {
     color: var(--SLATE, #434455);
@@ -155,22 +154,22 @@ text-align: center;
 
 /* Body */
 font-family: Roboto;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.02rem;
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
 
 /* Body */
 font-family: Roboto;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.02rem;
 }
 .footer-foot {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -179,21 +178,21 @@ letter-spacing: 0.32px;
 .logo-link {
     color: #f4f4fd;
     font-family: Raleway;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 700;
-line-height: 1.7;
-letter-spacing: 0.54px;
+line-height: 1.7rem;
+letter-spacing: 0.03375rem;
 text-transform: uppercase;
 }
 .link-logo-footer {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway, sans-serif;
-font-size: 18px;
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
+line-height: 1.17rem;
+letter-spacing: 0.03375rem;
 text-transform: uppercase;
 }
 .sec-three {
@@ -208,4 +207,10 @@ background: var(--WHITE, #FFFFFF);
 }
 .ul-our-portfolio {
     background-color: #FFFFFF
+}
+a {
+    text-decoration:none;
+}
+ul {
+    list-style: none;
 }
