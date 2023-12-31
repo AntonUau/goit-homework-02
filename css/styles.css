@@ -45,7 +45,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17;
-letter-spacing: 0.03375em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 address {
@@ -57,19 +57,19 @@ address {
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.3125; /* 116.667% */
-letter-spacing: 0.03375em;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .nav-link { 
     color: var(--NAVY-BLUE, #2E2F42);
 /* Body Medium */
 font-family: Roboto;
-font-size: 1.25px;
+font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.025em;
+letter-spacing: 0.02em;
 }
 .nav-link:hover {
     color: #404bbf
@@ -132,7 +132,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: 0.045em;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .name {
@@ -144,8 +144,8 @@ font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5em; /* 120% */
-letter-spacing: 0.025em;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
 }
 .heder-text {
     color: var(--SLATE, #434455);
@@ -180,8 +180,8 @@ letter-spacing: 0.02em;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.7r;
-letter-spacing: 0.03375em;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .link-logo-footer {
